@@ -1,0 +1,23 @@
+<h1>Students at University</h1>
+<select id="major-select">
+  <option selected disabled>Filter by major:</option>
+  <% @majors.each do |major| %>
+    <option><%= major %></option>
+  <% end %>
+  <option>all majors</option>
+</select>
+<p>
+<table>
+<tr>
+  <td>Name</td>
+  <td>Major</td>
+  <td>GPS</td>
+</tr>
+  <% @students.each do |student| %>
+  <tr>
+    <td> <%= student.name %> </td>
+    <td> <%= student.major %> </td>
+    <td> <%= student.gpa %> </td>
+  </tr>
+  <% end %>
+</table>
