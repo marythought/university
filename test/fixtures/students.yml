@@ -1,11 +1,21 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
-  major: MyString
-  gpa: MyString
+susan:
+  name: Susan
+  major: Engineering
+  gpa: 3.8
 
-two:
-  name: MyString
-  major: MyString
-  gpa: MyString
+mary:
+  name: Mary
+  major: English
+  gpa: 4.0
+
+jake:
+  name: Jake
+  major: CS
+  gpa: 2.0
+
+john:
+  name: John
+  major: CS
+  gpa: 3.5
